@@ -1,62 +1,62 @@
 ![JUKU3000](https://raw.githubusercontent.com/infoaed/juku3000/master/images/juku3000.jpg)
-# Mis on JUKU3000?
+# What is JUKU3000?
 
-*Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutimängude esiajalugu — 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!*
+*Our goal is to let future generations experience the prehistory of Estonian computer games vividly — the JUKU school computer from the 90s must be usable in the year 3000!*
 
-Kui tahad lugeda Juku kettaid:
+If you want to read Juku disks:
 
-* [Märt Põder kirjeldab libdsk/cpmtools meetodit](/docs/kettad.md)
+* [Märt Põder describes the libdsk/cpmtools method](/docs/kettad.md)
 
-Juku emulaatorid:
+Juku emulators:
 
-* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (töökorras emulaator, koodi leiab esialgu [siit](https://github.com/boamaod/mame), käivitamiseks RomBios 3.43m ja JBASIC 1.1 ROMid [siit](mameroms), kood mõne aja pärast eeldatavasti vaikimisi [osa MAMEst](https://github.com/mamedev/mame/pull/9946))
-* [EMU80](https://github.com/vpyk/emu80v4) (vaba lähtekoodiga kergekaaluline kandidaat, mida mugandada Juku jt sama pere kiipide emuleerimiseks)
-* [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib 80% ulatuses nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)), sj konfifailid täiendatavad, aga Jukul puuduvad täiendavad graafika- ja tekstirežiimid, audio tugi ja kahe ketta tugi, lähtekood suletud -- soovitatav kasutada üldjuhul emuleerimiseks MAMEt, aga see emulaator koos oma siluri ja seadetega on hea võrdlusmaterjal)
+* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (working emulator, the code can be found for the time being [here](https://github.com/boamaod/mame), RomBios 3.43m and JBASIC 1.1 ROMs to boot [here](mameroms), the code is expected to default after some time [part of MAME](https://github.com/mamedev/mame/pull/9946))
+* [EMU80](https://github.com/vpyk/emu80v4) (a free-source lightweight candidate to be adapted to emulate chips of the same family as Juku et al)
+* [Universal Emulator](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emulates both [Juku](https://et.wikipedia.org/wiki/Juku_(arvuti)) and [Iskra 1080 Tartu](https://et.wikipedia.org/wiki/Tartu_(arvuti)) to the extent of 80%, configuration files can be updated, but Juku lacks additional graphics and text modes, audio support and two-disk support, source code closed -- generally recommended to use MAME for emulation, but this emulator with its debugger and settings is a good reference material)
 
-Juku opsüsteem EKDOS:
+Juku operating system EKDOS:
 
-* [EKDOS 2.30](https://p6drad-teel.net/~p6der/ekdos230.zip) (väljalase detsember 1989, [teade](docs/ekdos230.txt))
-  * [Lähtekood](src/EKDOS30.ASM), vrd CP/M 2.2 [mugandamise juhised Digital Researchilt](http://www.gaby.de/cpm/manuals/archive/cpm22htm/ch6.htm)
-* [EKDOS 2.29](https://p6drad-teel.net/~p6der/ekdos229.zip) (väljalase 05.01.1988)
+* [EKDOS 2.30](https://p6drad-teel.net/~p6der/ekdos230.zip) (release December 1989, [notice](docs/ekdos230.txt))
+  * [Source code](src/EKDOS30.ASM), CP/M 2.2 [customization instructions from Digital Research](http://www.gaby.de/cpm/manuals/archive/cpm22htm/ch6.htm)
+* [EKDOS 2.29](https://p6drad-teel.net/~p6der/ekdos229.zip) (release 05.01.1988)
 
-Taustainfot:
+Background information:
 
-* [Arti Zirk on kogunud Juku materjale](https://arti.ee/juku/)
-* [ELFA foorumis on oluline Juku teema](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
-* [ZX форум äärmiselt kasulik Juku E5101 lõim](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
+* [Arti Zirk has collected Juku materials](https://arti.ee/juku/)
+* [The Juku topic is important in the ELFA forum](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
+* [ZX forum extremely useful Juku E5101 thread](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
 
-See siin oli algselt häkatoniprojekt, mida dokumenteeritakse allpool -- praeguseks on olemas [LVLup muuseum](https://et.wikipedia.org/wiki/LVLup) ja arvutimuuseumid [Tallinnas](https://et.wikipedia.org/wiki/Arvutimuuseum) ja [Tartu Ülikooli arvutiteaduse instituudi juures](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), kelle koostöös sellised asjad võiks teoks saada.
+This site was originally a hackathon project, which is documented below -- now there is an [LVLup museum](https://et.wikipedia.org/wiki/LVLup) and computer museums [in Tallinn](https://et.wikipedia.org/wiki/Arvutimuuseum) and [at the Institute of Computer Science of the University of Tartu](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), with whose cooperation such things could become a reality.
 
-_Järgneb ajalooline tekst..._
+_The historical text follows..._
 
-## Elamused ja ekspositsioonid 22.09-24.09 2017
+## Experiences and expositions 22.09-24.09 2017
 
-Muuseumid tahaks panna välja Jukude, ZX Spectrumide, Atarite, Amigate, Commodorede, Iskrate, Yamahade, Tartute, Entelite jne näitusi koos toonase tarkvara/mängudega, aga sellega on üks suur probleem — kui külastajad neid arvuteid ka puudutada tohivad, siis kipuvad uunikumid purunema. Aga mis mõte on arvutitel, kui neid näppida ei või?
+Museums would like to put on exhibitions of Jukus, ZX Spectrums, Ataris, Amigas, Commodores, Iskras, Yamahas, Tartues, Entels, etc., together with the software/games of the time, but there is one big problem with that — if visitors are allowed to touch these computers, the new ones tend to break. But what's the point of computers if you can't touch them?
 
-Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub toonastele arvutitele sarnast kasutuskogemust, kuid on tänapäeva kasutajale piisavalt intuitiivne ning lollikindel, et sellest võiks igapäevaselt üle käia koolijütside hordid.
+The solution is to build a computer system from modern components that offers a user experience similar to the computers of the time, but is intuitive enough for today's users and foolproof enough that hordes of schoolboys could go over it every day.
 
-### Tiimi liikmed
+### Team members
 
-* (nimed eemaldatud)
+* (names removed)
 
-## Mida selleks vaja on?
+## What does it take?
 
-* Emulaatoreid, palju emulaatoreid. Juku EKDOSi emuleerimine koos kõigi liidestega ei ole ühe õhtu projekt, aga enamike vanade levinud platvormide jaoks on olemas emulaatorid. Neid saab kasutada.
-* Tarkvara, palju kõvaketastele, diskettidele, kassettidele ja lintidele kinni jäänud tarkvara, eriti seda, mis on mugandatud, häkitud või lausa toodetud maarahva poolt maarahvale kasutamiseks. Kas sul on tarkvara, mis ei jookse ühelgi teadaoleval tänapäeva arvutisüsteemil? Kirjutasid ise 1990datel arvutimänge? Saada see meile, me mõtleme välja, kuidas sellele elu sisse puhuda.
-* Riistvarakomplekt, kus on vana kooli CRT monitor, arhailise moega vastupidav klaviatuur ning legendaarne juhtpult Joystick!
-* Kasutajaliidese pealiskiht, mis võimaldab valida eri emulaatorite, nende mängude vahel.
-* Muuseumikiht, mis võimaldab tutvuda arvutimängude esijaloo kultuuri- ja tehnotasutaga. Öövalve arvutuskeskuses? Kalevi tänava mängude tuba? Kooli Juku-klassi võti? Zeroday kräkid hollandi BBSist 2600-baud modemiga Eesti Telefoni kulul? BBSummer ja ee.kevad? Mudamängija sokid ATI terminali klaviatuuril? Kogu see etnograafiline materjal väärib kogumist ja tulevastele põlvedele jutustamist.
+* Emulators, lots of emulators. However, emulating EKDOS with all interfaces is not an overnight project, but there are emulators for most old common platforms. They can be used.
+* Software, a lot of software stuck on hard drives, diskettes, cassettes and tapes, especially that which has been modified, hacked or actually produced by the people of the country for the use of the people of the country. Do you have software that won't run on any known modern computer system? Did you write computer games yourself in the 1990s? Send it to us, we'll figure out how to breathe life into it.
+* A hardware kit with an old-school CRT monitor, an archaic-style durable keyboard and the legendary Joystick!
+* A user interface overlay that allows you to choose between different emulators, their games.
+* A museum layer that allows you to get acquainted with the cultural and technical content of the prehistory of computer games. Night watch in the computing center? Kalevi street games room? The key to the school's Juku class? Zeroday cracks from the Dutch BBS with a 2600-baud modem at the expense of Eesti Telefon? BBSummer and spring? Mud player socks on an ATI terminal keyboard? All this ethnographic material deserves to be collected and told to future generations.
 
-## Kuidas selleni jõuda?
+## How to get there?
 
-Esimene samm astutakse 22.-24. septembril 2017 Tartus Garage48 häkatonil ["Elamused ja ekspositsioonid"](http://garage48.org/events/garage48-elamused-ja-ekspositsioonid). Kui sa tunned huvi, tahad anda nõu, aidata kaasa või lihtsalt jagada oma mälestusi vmt, siis võta ühendust tramm@infoaed.ee või +372 55643754 — meile on kasu, kui saad häkatonilt läbi tulla, et meiega sel teemal lihtsalt suhelda, aga veel parem kui liitud meie tiimiga, et luua prototüüp, mis võiks leida kasutamist päris muuseumis päris näitustel. Katsenäituse plaanime läbi viia juba novembri alguses, kui ERMis toimub tänapäeva digitaalsele muuseumitööle keskenduv konverents ["Open licences, open content, open data: tools for developing digital humanities"](http://dh.org.ee/category/events/dhe2017/), kus esineb ka Soome esimese arvutimängumuuseumi üks võtmeisik Outi Penninkangas.
+The first step will be taken on the 22nd-24th in September 2017 at the Garage48 hackathon in Tartu ["Experiences and expositions"](http://garage48.org/events/garage48-elamused-ja-ekspositsioonid). If you are interested, want to give advice, help or simply share your memories, etc., please contact tramm@infoaed.ee or +372 55643754 — it would be useful for us if you could come by the hackathon to simply communicate with us on this topic, but still better than joining our team to create a prototype that could find use in a real museum in real exhibitions. We plan to hold a test exhibition already at the beginning of November, when a conference focusing on modern digital museum work will be held in ERM ["Open licences, open content, open data: tools for developing digital humanities"](http://dh.org.ee/category/events/dhe2017/), where Outi Penninkanga, one of the key figures of Finland's first computer game museum, will also perform.
 
-## Lisamaterjali
+## Additional material
 
-* [Tartu Ülikooli arvutimuuseuum](http://arvutimuuseum.ut.ee/)
-* [Tallinna arvutimuuseum](http://arvutimuuseum.ee/)
-* [Unistused ja tegelikkus. 90ndate lapsepõlv](http://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Mänguasjamuuseumi näitus)
-* [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
-* [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
-* [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
-* [Teema: Arvuti "Juku"](http://www.elfafoorum.ee/threads/63332-Arvuti-quot-Juku-quot) (Elfa foorumis)
+* [University of Tartu Computer Museum](http://arvutimuuseum.ut.ee/)
+* [Tallinn Computer Museum](http://arvutimuuseum.ee/)
+* [Dreams and reality. 90s childhood](http://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Toy Museum exhibition)
+* [Shall we play?! Computer games from France and Germany](https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu computer games exhibition)
+* [RAM. Early Estonian computer art](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu computer graphics exhibition)
+* [Suomen's first pelimuseo opens in Tampere](https://yle.fi/uutiset/3-9354287) (Museum of computer games in Tampere)
+* [Subject: Computer "Juku"](http://www.elfafoorum.ee/threads/63332-Arvuti-quot-Juku-quot) (In the Elfa forum)
