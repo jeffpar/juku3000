@@ -23,7 +23,7 @@ Background information:
 
 * [Arti Zirk has collected Juku materials](https://arti.ee/juku/)
 * [The Juku topic is important in the ELFA forum](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
-* [ZX forum extremely useful Juku E5101 thread](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
+* [ZX forum extremely useful Juku E5101 thread](https://zx-pk.ru/threads/27298-juku-e5101.html) (in Russian)
 
 This site was originally a hackathon project, which is documented below -- now there is an [LVLup museum](https://et.wikipedia.org/wiki/LVLup) and computer museums [in Tallinn](https://et.wikipedia.org/wiki/Arvutimuuseum) and [at the Institute of Computer Science of the University of Tartu](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), with whose cooperation such things could become a reality.
 
